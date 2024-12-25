@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,6 +15,9 @@ export default {
       },
       fontFamily: {
         lilita: ['var(--font-lilita-one)'],
+      },
+      clipPath: {
+        'upper-left-triangle': 'polygon(0 0, 100% 0, 0 100%)',
       },
     },
   },
