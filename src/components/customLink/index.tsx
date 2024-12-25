@@ -5,12 +5,13 @@ export interface CustomLinkProps {
   text: string;
   url: string;
   switch?: boolean;
+  to: string;
 }
 
-export default function CustomLink({ text, url, switch: isSwitch = false }: CustomLinkProps) {
+export default function CustomLink({ text, url, to, switch: isSwitch = false }: CustomLinkProps) {
   return (
     <Link
-      href={url}
+      href={to}
       className={`p-5 rounded-md flex justify-center items-center text-5xl w-full font-lilita gap-4 ${
         isSwitch ? "bg-blue-400" : "text-blue-400 bg-white"
       }`}
