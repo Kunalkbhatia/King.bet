@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="grid grid-cols-2 mx-auto p-10 relative">
+      <div className="grid grid-cols-2 mx-auto p-10 relative h-screen">
         {/* Board */}
         <div>
           <ChessBoard/>
