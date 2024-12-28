@@ -29,7 +29,7 @@ export default function SideBar() {
   <div className="w-[180px] h-screen bg-black bg-opacity-20">
     <div className="flex flex-col gap-8">
     {/* logo */}
-    <div className="flex place-items-center">
+    <div className="flex items-baseline mt-2">
         <Image src={kingLogo} alt="logo" width={40} height={40}/>
         <div className="text-5xl font-bold font-lilita">King<span className="text-xl">.bet</span></div>
     </div>
