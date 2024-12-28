@@ -1,26 +1,27 @@
 import Image from "next/image"
 import kingLogo from "../../../public/chess-svgrepo-com.svg";
 import Link from "next/link";
+import { AssetsURL } from "@/utils";
 export const navlinks = [
     {   
         link: "Play",
         to: "/play",
-        url: "https://www.chess.com/bundles/web/images/color-icons/playwhite.cea685ba.svg"
+        url: AssetsURL.play
     },
     {
         link: "Watch",
         to: "/watch",
-        url: "https://www.chess.com/bundles/web/images/color-icons/watch.d42fed26.svg"
+        url: AssetsURL.watch,
     },
     {
         link: "News",
         to: "/news",
-        url: "https://www.chess.com/bundles/web/images/color-icons/newspaper.6e020a3f.svg",
+        url: AssetsURL.news,
     },
     {
         link: "Social",
         to: "/social",
-        url: "https://www.chess.com/bundles/web/images/color-icons/friends.d2e3c382.svg"
+        url: AssetsURL.social,
     }
 ]
 export default function SideBar() {

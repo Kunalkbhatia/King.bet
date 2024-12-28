@@ -1,5 +1,6 @@
 import ChessBoard from "@/components/board";
 import CustomLink from "@/components/customLink";
+import { AssetsURL } from "@/utils";
 
 export default function Home() {
 
@@ -20,13 +21,13 @@ export default function Home() {
             <CustomLink
               to="/play"
               text="Play Online"
-              url="https://www.chess.com/bundles/web/images/color-icons/playwhite.cea685ba.svg"
+              url={AssetsURL.play}
               switch={true}
             />
             <CustomLink
               to="/play"
               text="Play Bots"
-              url="https://www.chess.com/bundles/web/images/color-icons/cute-bot.32735490.svg"
+              url={AssetsURL.bot}
             />
           </div>
         </div>
