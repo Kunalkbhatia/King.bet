@@ -7,7 +7,7 @@ const CustomLinkPlayData: CustomLinkPlayProps[] = [
   {
     title: "Play Online",
     description: "Play vs a person of similar skill",
-    image: AssetsURL.play,
+    image: AssetsURL.biltz,
     to: "/online",
   },
   {
