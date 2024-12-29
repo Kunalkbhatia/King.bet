@@ -8,25 +8,25 @@ const CustomLinkPlayData: CustomLinkPlayProps[] = [
     title: "Play Online",
     description: "Play vs a person of similar skill",
     image: AssetsURL.biltz,
-    to: "/online",
+    to: "/play/online",
   },
   {
     title: "Play Bots",
     description: "Challenge a bot for practice",
     image: AssetsURL.bot,
-    to: "/bots",
+    to: "/play/bots",
   },
   {
     title: "Play a Friend",
     description: "Invite a friend to a game",
     image: AssetsURL.handshake,
-    to: "/friend",
+    to: "/play/friend",
   },
   {
     title: "Tournaments",
     description: "Join an arena where anyone can win",
     image: AssetsURL.tournament,
-    to: "/tournament"
+    to: "/play/tournament"
   }
 ]
 
