@@ -2,7 +2,7 @@ import Image from "next/image"
 import kingLogo from "../../../public/chess-svgrepo-com.svg";
 import Link from "next/link";
 import { AssetsURL } from "@/utils";
-export const navlinks = [
+export const Navlinks = [
     {   
         link: "Play",
         to: "/play",
@@ -24,6 +24,7 @@ export const navlinks = [
         url: AssetsURL.social,
     }
 ]
+
 export default function SideBar() {
   return (
   <div className="w-[180px] h-screen bg-black bg-opacity-20">
@@ -36,7 +37,7 @@ export default function SideBar() {
     {/* navlinks */}
     <div className="flex flex-col gap-5 p-2">
         {
-            navlinks.map((link) => {
+            Navlinks.map((link) => {
                 return (
                     <div key={link.link} className="flex items-center gap-2">
                         <Image src={link.url} alt={link.link} width={30} height={30} />
